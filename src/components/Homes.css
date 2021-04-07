@@ -4,6 +4,39 @@
     width: 100%;
     background-color: white;
 }
+.navbar{
+    background-color: rgb(159, 47, 240);
+}
+.boot{
+    width: 50px;
+    position:fixed; 
+    left:20px; 
+    top:10px;
+}
+ul{
+    margin-left: 70%;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+a:hover{
+    background-color: #006400fd;
+    border-radius: 5px;
+}
+ul li{
+    color: white;
+    margin-bottom: 1.5%;
+}
+
+
+.Boot-text{
+    font-size: 25px;
+    font-weight: 600;
+    position: fixed;
+    left: 74px;
+    top: 17px;
+}
 img{
     width: 80%;
 }
@@ -20,28 +53,13 @@ img{
     opacity: 0.5;
     margin: 1%;
 }
-.button2{
-    background-color: rgb(111, 101, 248);
-    font-family: 'cambria';
+
+.btn{
+    margin-left: 9%;
     font-size: 20px;
-    color: white;
-    padding: 6px 10px 8px 10px;
-    border-radius: 5px;
-    border: none;
-    margin-right: 41%;
-    margin-left: 10%;
+    margin-top: 5%;
 }
-.button{
-    background-color: rgb(111, 101, 248);
-    font-family: 'cambria';
-    font-size: 20px;
-    color: white;
-    padding: 6px 10px 8px 10px;
-    border-radius: 5px;
-    border: none;
-    margin-top: 3%;
-    
-}
+
 .top{
     margin-top: 5%;
     margin-left: 5%;
