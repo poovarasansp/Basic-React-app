@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,500;0,700;1,500&display=swap');
 .main{
     margin: 0;
     padding: 0;
@@ -9,13 +11,13 @@
 }
 .boot{
     width: 50px;
-    position:fixed; 
+    position: fixed;
     left:20px; 
     top:10px;
 }
 ul{
     margin-left: 68%;
-    margin-top: 5px;
+    margin-top: 0px;
     font-size: 18px;
     font-weight: 500;
     
@@ -33,9 +35,9 @@ ul li{
 .Boot-text{
     font-size: 25px;
     font-weight: 600;
-    position: fixed;
+    position: absolute;
     left: 74px;
-    top: 17px;
+    top: 10px;
 }
 img{
     width: 80%;
@@ -65,4 +67,69 @@ img{
     margin-left: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.head2{
+    font-size: 30px;
+}
+.com{
+    width: 40%;
+    margin-top: 3%;
+}
+.head2{
+    font-size: 45px;
+    font-family: "Krub";
+    width: 50%;
+    font-weight: bold;
+    margin-left: 23%;
+    margin-top: 5%;
+    opacity: 0.8;
+}
+.text2{
+    font-size: 25px;
+    font-family: "Krub";
+    font-weight: 100;
+    opacity: 0.8;
+}
+.get{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 1%;
+}
+.values1{
+    width: 30%;
+    height: 40%;
+    background-color: white;
+    box-shadow: rgb(230, 159, 159);
+}
+.value1{
+    width: 60%;
+    padding: 1%;
+}
+.val1{
+    color: #012970;
+    padding: 5% 0 0 0 ;
+}
+.val2{
+    width: 82%;
+    font-size: 20px;
+    opacity: 0.9;
+    padding: 3% 0 15% 0;
+    margin-left: 7%;
+    
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+}
+.odit{
+    color: #063c99;
+    font-size: 40px;
+    margin: 1% 0 5% 0;
+}
+.our{
+    font-size: 18px;
+    color: #045bf0;
+    font-family: 'Cambria';
+    font-weight: 500;
+    margin-top: 5%;
 }

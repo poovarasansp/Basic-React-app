@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from '../Images/hero-img.png';
 import bootstrap from '../Images/bootstrap.jpg'
+import computer from '../Images/hero-imgs.png'
+import value1 from '../Images/values-1.png'
+import value2 from '../Images/values-2.png'
+import value3 from '../Images/values-3.png'
 import './Homes.css'
 
 
@@ -41,11 +45,45 @@ import './Homes.css'
                     </div>
                     <div>
                     <img src={logo} alt="Logo" className="logo"/>
-                    
-
                     </div>
                 </div>
+
+                <div>
+                    <h2 className="head2">Build Better Websites With Bikin</h2>
+                    <p className="text2">We are team of talented designers making websites with Bootstrap</p>
+                    <button type="button" class="btn btn-primary get">Get Started</button><br></br>
+                    <img src={computer} alt="Computer" className="com"/>
+                </div>
+
+                {/* Part - 3 */}
+                <div className="our">OUR VALUES</div>
+                <h2 className="odit">Odit est perspiciatis laborum et dicta</h2>
+                <div className="three">
+                <div className="values1">
+                    <img src={value1} alt="Image" className="value1"/>
+                    <h4 className="val1">Ad cupiditate sed est odio</h4>
+                    <p className="val2">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+                </div>
+
+                <div className="values1">
+                    <img src={value2} alt="Image" className="value1"/>
+                    <h4 className="val1">Voluptatem voluptatum alias</h4>
+                    <p className="val2">Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+                </div>
+
+                <div className="values1">
+                    <img src={value3} alt="Image" className="value1"/>
+                    <h4 className="val1">Fugit cupiditate alias nobis.</h4>
+                    <p className="val2">Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                </div>
+                </div>
+                
+
+
+
             </div>
+
+            
         ) 
     }
     
