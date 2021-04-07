@@ -23,7 +23,10 @@ import './Homes.css'
                         <a class="nav-link text-white" href="https://icons.getbootstrap.com/" target="_blank">Icons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="https://mdbootstrap.com/docs/b4/jquery/sections/contact/" target="_blank">Contact</a>
+                        <a class="nav-link text-white" href="https://themes.getbootstrap.com/" target="_blank">Themes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="https://twitter.com/getbootstrap" target="_blank">Visit</a>
                     </li>
                 </ul>
                 </div>
